@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79b4f65d-3d03-4ebe-8bbd-bbaa03353987" name="Default Changelist" comment="" />
+    <list default="true" id="79b4f65d-3d03-4ebe-8bbd-bbaa03353987" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,30 +18,31 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.31" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
           <entry key="ft" value="97" />
-          <entry key="java" value="4094" />
+          <entry key="java" value="4547" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4094" />
+          <entry key="JAVA" value="4547" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="VTL" value="97" />
         </counts>
@@ -48,38 +51,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practic01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice09.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice10.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice11_13.java">
+        <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+              <folding>
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +105,7 @@
         <option value="$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice10.java" />
         <option value="$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice11.java" />
         <option value="$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice11_13.java" />
+        <option value="$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice14.java" />
       </list>
     </option>
   </component>
@@ -156,6 +137,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="think_in_java_demo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="chapter02" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -214,17 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="think_in_java_demo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="chapter02" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +214,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558000572863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558060655927" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -243,7 +224,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -265,26 +246,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Practice11_13">
+  <component name="RunManager" selected="Application.Practice14">
     <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.whw.leetcode.Practice01" />
       <module name="chapter03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.whw.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whw.practic.Practice08" />
-      <module name="chapter03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whw.practic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,20 +299,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whw.practic.Practice14" />
+      <module name="chapter03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.practic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Practice08" />
       <item itemvalue="Application.Practice09" />
       <item itemvalue="Application.Practice01" />
       <item itemvalue="Application.Practice10" />
       <item itemvalue="Application.Practice11_13" />
+      <item itemvalue="Application.Practice14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice14" />
         <item itemvalue="Application.Practice11_13" />
         <item itemvalue="Application.Practice10" />
         <item itemvalue="Application.Practice01" />
         <item itemvalue="Application.Practice09" />
-        <item itemvalue="Application.Practice08" />
       </list>
     </recent_temporary>
   </component>
@@ -361,6 +342,7 @@
       <workItem from="1557892663174" duration="7610000" />
       <workItem from="1557912660751" duration="8584000" />
       <workItem from="1557997489791" duration="2706000" />
+      <workItem from="1558057709063" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1558000393773</created>
@@ -392,7 +374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18900000" />
+    <option name="totallyTimeSpent" value="21291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,8 +387,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,11 +398,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.330076" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.330076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24538545" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -459,13 +442,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/StaticTest.java" />
     <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/test.java" />
-    <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/StaticDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/StaticDemo.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -481,13 +458,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/DemoTest.java" />
-    <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/src/com/whw/practic01/Demo.java" />
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice02Entity.java" />
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice03Entity.java" />
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice02.java">
@@ -526,13 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/src/test/test/com/whw/practic/Practice07TestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/src/test/test/com/whw/practic/Practice07TestTest.java" />
     <entry file="file://$PROJECT_DIR$/chapter03/src/test/com/whw/practic/Practice07Test.java" />
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice07.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -577,14 +542,25 @@
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice11_13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/src/com/whw/practic/Practice14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
