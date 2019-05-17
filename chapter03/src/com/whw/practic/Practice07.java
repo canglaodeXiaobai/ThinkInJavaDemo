@@ -2,6 +2,7 @@ package com.whw.practic;
 
 import org.junit.Test;
 
+
 import java.util.Random;
 
 /**
