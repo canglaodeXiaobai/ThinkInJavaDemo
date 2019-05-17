@@ -22,7 +22,8 @@ public class Practice10Test {
             to = Math.min(10000 / i, 100);
             for (int j = from; j < to; j++) {
                 i_val = i * j;
-                // 下面的这个代码，我个人并不知道为什么，汗颜
+                // i_val % 100 == 0 是后两位不能为0
+                // (i_val - i - j) % 9 != 0 暂时还没懂
                 if (i_val % 100 == 0 || (i_val - i - j) % 9 != 0) {
                     continue;
                 }
