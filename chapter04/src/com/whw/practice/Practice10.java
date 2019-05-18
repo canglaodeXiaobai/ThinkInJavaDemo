@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class Practice10 {
 
-    public static int count = 0;
+    /*public static int count = 0;
     public static void main(String[] args) {
         long startTime = new Date().getTime();
         for (int i = 1000; i < 10000; i++) {
@@ -53,34 +53,115 @@ public class Practice10 {
         int k = c * 10 + d;
         pro(i, j, k);
     }
-    public static int a (int i) {
-        count ++;
-        return i / 1000;
+*/
+
+    public static void main(String[] args) {
+        Practice10 p = new Practice10();
+        long start = new Date().getTime();
+        p.fun1();
+        long end = new Date().getTime();
+        System.out.println("方法一使用时间：" + (end - start) + "ms");
+
     }
 
-    public static int b (int i) {
-        count ++;
-        return (i % 1000) / 100;
+    /**
+     * 方法一
+     */
+    public void fun1() {
+        for (int i = 1000; i < 10000; i ++) {
+            if (i % 100 == 0) {
+                continue;
+            }
+            int a = a(i);
+            int b = b(i);
+            int c = c(i);
+            int d = d(i);
+
+            product(i, a, b, c, d);
+            product(i, a, b, d, c);
+            product(i, a, c, b, d);
+            product(i, a, c, d, b);
+            product(i, a, d, b, c);
+            product(i, a, d, c, b);
+            product(i, b, a, c, d);
+            product(i, b, a, d, c);
+            product(i, b, c, d, a);
+            product(i, b, d, c, a);
+            product(i, c, a, d, b);
+            product(i, c, b, d, a);
+        }
     }
 
-    public static int c (int i) {
-        count ++;
-        return ((i % 1000) % 100) / 10;
+    /**
+     * 千位
+     * @param num 传入的数字
+     * @return 千位数字
+     */
+    public int a (int num) {
+        return num / 1000;
     }
 
-    public static int d (int i) {
-        count ++;
-        return i % 10;
+    /**
+     * 百位
+     * @param num 传入的数
+     * @return 百位数字
+     */
+    public int b (int num) {
+        return (num % 1000) / 100;
     }
 
-    public static int cou(int i, int j) {
-        count ++;
+    /**
+     * 十位
+     * @param num 传入的数字
+     * @return 十位数字
+     */
+    public int c (int num) {
+        return ((num % 1000) % 100) / 10;
+    }
+
+    /**
+     * 各位
+     * @param num 传入的数字
+     * @return 个位数字
+     */
+    public int d (int num) {
+        return num % 10;
+    }
+
+    /**
+     * 组成两位数的数字
+     * @param i 十位数字
+     * @param j 个位数字
+     * @return 两位数的数字
+     */
+    /*public int com (int i, int j) {
         return i * 10 + j;
+    }*/
+
+    /**
+     * 生成吸血鬼数字
+     * @param num
+     * @param i
+     * @param j
+     * @return
+     */
+    public void vampire (int num, int i, int j) {
+        if (num == i * j)
+            System.out.println(num + " = " + i + " * " + j);
     }
 
-    public static void pro(int i, int j, int k) {
-        count ++;
-        if (i == j * k)
-        System.out.println(i + " = " + j + " * " + k);
+    /**
+     * 生成
+     * @param num
+     * @param a
+     * @param b
+     * @param c
+     * @param d
+     */
+    public void product (int num, int a, int b, int c, int d) {
+        int i = a * 10 + b;
+        int j = c * 10 + d;
+        vampire(num, i, j);
     }
+
 }
