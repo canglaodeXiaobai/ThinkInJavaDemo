@@ -1,7 +1,5 @@
 package com.whw.practic;
 
-import org.junit.Test;
-
 /**
  * 分别显示用float和double指数计数法所能表示的最大和最小的数字
  */

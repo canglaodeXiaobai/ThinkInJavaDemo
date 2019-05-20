@@ -40,6 +40,7 @@ public class Practice11_13 {
         System.out.println("@: " + showCharBinary('@'));
         System.out.println("1: " + showCharBinary('1'));
         System.out.println("=: " + showCharBinary('='));
+
     }
 
     public static String showCharBinary(char c) {
